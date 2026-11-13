@@ -30,7 +30,6 @@ Para configurar o banco de dados em seu ambiente local, execute os scripts local
 Cria o esquema do banco de dados, incluindo tabelas de produtos, categorias, movimentações de estoque e restrições de integridade.
 
 ```
-Bash
 psql -U seu_usuario -d nome_do_banco -f scripts/01_ddl_criacao.sql
 ```
 
@@ -38,7 +37,6 @@ psql -U seu_usuario -d nome_do_banco -f scripts/01_ddl_criacao.sql
 Insere os registros iniciais (categorias, peças de bijuteria, quantidades em estoque, etc.) para viabilizar testes e validação do sistema.
 
 ```
-Bash
 psql -U seu_usuario -d nome_do_banco -f scripts/02_dml_insercao.sql
 ```
 
@@ -46,7 +44,6 @@ psql -U seu_usuario -d nome_do_banco -f scripts/02_dml_insercao.sql
 Contém consultas prontas para verificação de saldo de estoque, listagem de produtos por categoria, peças com estoque baixo e histórico de movimentações.
 
 ```
-Bash
 psql -U seu_usuario -d nome_do_banco -f scripts/03_sql_consultas.sql
 ```
 
@@ -55,9 +52,8 @@ psql -U seu_usuario -d nome_do_banco -f scripts/03_sql_consultas.sql
 📄 Documentação Técnica
 Todos os detalhes arquiteturais, dicionário de dados, diagramas de Entidade-Relacionamento e regras de negócio aplicadas ao controle de peças da P&B Bijuterias encontram-se detalhados no documento:
 
-📘 Documentação Técnica - P&B Bijuterias
+📘 * [Documentação Técnica - P&B Bijuterias (PDF)](./documentacao/Documentacao_Tecnica_PB_Bijuterias.pdf)
 
 👨‍💻 Autor
-Desenvolvido por Gabriel Dias
+Desenvolvido por **Gabriel Dias** — [GitHub](https://github.com/gbrdias-dev)
 
-🔗 GitHub
