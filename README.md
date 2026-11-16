@@ -19,7 +19,7 @@ PB_Estoque/
 ```
 
 # 🛠️ Tecnologias Utilizadas
-Banco de Dados Relacional: SQL (compatível com PostgreSQL / MySQL)
+Banco de Dados Relacional: SQL (PostgreSQL)
 
 Documentação: Modelagem Conceitual, Lógica e Física
 
